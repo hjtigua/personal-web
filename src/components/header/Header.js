@@ -14,10 +14,10 @@ export default function Header() {
             <Logo />
             <HamburgerMenu />
             <Popover.Group as="nav" className="hidden md:flex space-x-10">
-              <MenuOptions text="Acerca de mí" url="#" />
-              <MenuOptions text="Proyectos" url="#" />
-              <MenuOptions text="Blog" url="#" />
-              <MenuOptions text="Contacto" url="#" />
+              <MenuOptions text="Acerca de mí" url="/about" />
+              <MenuOptions text="Proyectos" url="/projects" />
+              <MenuOptions text="Blog" url="/blog" />
+              <MenuOptions text="Contacto" url="/contact" />
             </Popover.Group>
           </div>
         </div>
