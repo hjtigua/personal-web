@@ -1,0 +1,8 @@
+.highlighted__text{
+    background: var(--primary-light);
+    font-size: 1.8rem;
+    font-weight: 700;    
+    color: var(--default-text-color);
+    border-radius: 4px;
+    padding: 2px;
+}

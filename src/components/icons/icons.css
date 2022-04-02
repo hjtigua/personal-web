@@ -1,0 +1,40 @@
+.icon{ 
+    display: inline-block;
+    height: 28px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coin{
+    background-image: url('../../assets/images/coin.svg');
+}
+
+.bitcoin{
+    background-image: url('../../assets/images/bitcoin.svg');
+}
+
+.eth{
+    background-image: url('../../assets/images/eth.svg');
+}
+
+.ripple{
+    background-image: url('../../assets/images/ripple.svg');
+}
+
+.litecoin{
+    background-image: url('../../assets/images/lite.svg');
+}
+
+.git{
+    background-image: url('../../assets/images/git.svg');
+}
+
+.twitter{
+    background-image: url('../../assets/images/twitter.svg');
+}
+
+.linkeding{
+    background-image: url('../../assets/images/linkeding.svg');
+}
