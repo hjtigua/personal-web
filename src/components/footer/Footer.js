@@ -1,21 +1,38 @@
 import React from "react";
 import Icon from "../icons/Icon";
 export default function Footer() {
+  const year = new Date().getFullYear();
   return (
-    <footer className="px-80">
-      <div className="flex justify-around py-4">
-        <a href="#">Acerca de mí</a>
-        <a href="#">Proyecto</a>
-        <a href="#">Blog</a>
-        <a href="#">Contacto</a>
-      </div>
-      <div className="flex justify-center py-4">
-        <Icon icon="git" />
-        <Icon icon="linkeding" />
-        <Icon icon="twitter" />
-      </div>
-      <div className="py-4 text-center">
-        <p>2022, Héctor Tigua.Todos los derechos reservados.</p>
+    <footer className="max-w-5xl mx-auto py-10 text-base font-medium text-gray-500 ">
+      <div className="text-center">
+        <div className="flex flex-wrap justify-center mb-8 ">
+          <a className="mx-4 hover:underline" href="#">
+            Acerca de mí
+          </a>
+          <a className="mx-4 hover:underline" href="#">
+            Proyecto
+          </a>
+          <a className="mx-4 hover:underline" href="#">
+            Blog
+          </a>
+          <a className="mx-4 hover:underline" href="#">
+            Contacto
+          </a>
+        </div>
+        <div className="flex justify-center mb-8">
+          <a className="mx-3" href="#">
+            <Icon icon="git" />
+          </a>
+          <a className="mx-3" href="#">
+            <Icon icon="linkeding" />
+          </a>
+          <a className="mx-3" href="#">
+            <Icon icon="twitter" />
+          </a>
+        </div>
+        <div className="text-center mx-2">
+          <p>©{year}, Héctor Tigua.Todos los derechos reservados.</p>
+        </div>
       </div>
     </footer>
   );

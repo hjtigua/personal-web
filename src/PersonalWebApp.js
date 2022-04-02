@@ -16,7 +16,7 @@ export default function PersonalWebApp() {
           <Home />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
