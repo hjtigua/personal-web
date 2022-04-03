@@ -9,9 +9,9 @@ import AppRouter from "./routers/AppRouter";
 export default function PersonalWebApp() {
   return (
     <>
-      <div className="h-screen">
+      <div className="min-h-screen">
         <Header />
-        <div className="max-w-7xl mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto px-4 py-20">
           <AppRouter />
         </div>
       </div>
