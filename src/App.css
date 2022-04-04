@@ -12,3 +12,7 @@ body{
     --primary-light: #ffc53a66;
     --default-text-color: rgb(55, 53, 47);
 }
+
+.primary-color{
+    color: var(--primary);
+}
