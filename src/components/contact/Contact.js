@@ -4,8 +4,10 @@ import ilustracion from "../../assets/images/illustration.svg";
 import { useForm } from "../../hooks/useForm";
 import { db } from "../../firebase/conf";
 import { addDoc, collection } from "firebase/firestore";
+import Swal from "sweetalert2";
+
 export default function Contact() {
-  const [formValues, handleInputChange] = useForm({
+  const [formValues, handleInputChange, reset] = useForm({
     name: "",
     email: "",
     message: "",
@@ -16,11 +18,25 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const messagesRef = collection(db, `contactMessages`);
-    await addDoc(messagesRef, {
-      name,
-      email,
-      message,
-    });
+    try {
+      await addDoc(messagesRef, {
+        name,
+        email,
+        message,
+      });
+      reset();
+      Swal.fire({
+        title: "Mensaje enviado",
+        text: "Gracias por contactarme, pronto me pondré en contacto contigo",
+        confirmButtonText: "Ok",
+      });
+    } catch (error) {
+      Swal.fire({
+        title: "Lo sentimos",
+        text: "No se pudo enviar el mensaje, intenta de nuevo",
+        confirmButtonText: "Ok",
+      });
+    }
   };
 
   return (
