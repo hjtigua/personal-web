@@ -2,9 +2,10 @@ import React from "react";
 import "./styles.css";
 import ilustracion from "../../assets/images/illustration.svg";
 import { useForm } from "../../hooks/useForm";
-import { db } from "../../firebase/conf";
+import { analytics, db } from "../../firebase/conf";
 import { addDoc, collection } from "firebase/firestore";
 import Swal from "sweetalert2";
+import { logEvent } from "firebase/analytics";
 
 export default function Contact() {
   const [formValues, handleInputChange, reset] = useForm({
@@ -24,6 +25,10 @@ export default function Contact() {
         email,
         message,
       });
+      logEvent(analytics, "send_form", {
+        email,
+      });
+
       reset();
       Swal.fire({
         title: "Mensaje enviado",
