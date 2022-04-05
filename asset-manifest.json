@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-web/static/css/main.4cba49bd.css",
+    "main.js": "/personal-web/static/js/main.20d6ecd5.js",
+    "static/media/criptoCard.jpg": "/personal-web/static/media/criptoCard.098fabe2489852cae510.jpg",
+    "static/media/illustration.svg": "/personal-web/static/media/illustration.094d5be21e60ba26223b25fc4fcc0149.svg",
+    "static/media/bitcoin.svg": "/personal-web/static/media/bitcoin.d9bec1592c99993dff5c.svg",
+    "static/media/ripple.svg": "/personal-web/static/media/ripple.99496f07413e93538329.svg",
+    "static/media/eth.svg": "/personal-web/static/media/eth.107fc5a935657dc44fba.svg",
+    "static/media/coin.svg": "/personal-web/static/media/coin.b38e93409156970dae32.svg",
+    "static/media/lite.svg": "/personal-web/static/media/lite.793126e15661f703f8a9.svg",
+    "static/media/linkeding.svg": "/personal-web/static/media/linkeding.89c537fb812d09486765.svg",
+    "static/media/twitter.svg": "/personal-web/static/media/twitter.4d21212027af88f0cf81.svg",
+    "static/media/git.svg": "/personal-web/static/media/git.837803143c3c56e33d76.svg",
+    "index.html": "/personal-web/index.html",
+    "main.4cba49bd.css.map": "/personal-web/static/css/main.4cba49bd.css.map",
+    "main.20d6ecd5.js.map": "/personal-web/static/js/main.20d6ecd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cba49bd.css",
+    "static/js/main.20d6ecd5.js"
+  ]
+}
