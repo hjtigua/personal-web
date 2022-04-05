@@ -1,13 +1,13 @@
 import React from "react";
 import * as ReactDOMClient from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import PersonalWebApp from "./PersonalWebApp";
 const root = ReactDOMClient.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <PersonalWebApp />
-  </BrowserRouter>
+  </HashRouter>
 );
 // <React.StrictMode>
 //     <PersonalWebApp />
