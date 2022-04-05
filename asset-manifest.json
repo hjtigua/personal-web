@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-web/static/css/main.4cba49bd.css",
-    "main.js": "/personal-web/static/js/main.20d6ecd5.js",
+    "main.js": "/personal-web/static/js/main.ddb24f39.js",
     "static/media/criptoCard.jpg": "/personal-web/static/media/criptoCard.098fabe2489852cae510.jpg",
     "static/media/illustration.svg": "/personal-web/static/media/illustration.094d5be21e60ba26223b25fc4fcc0149.svg",
     "static/media/bitcoin.svg": "/personal-web/static/media/bitcoin.d9bec1592c99993dff5c.svg",
@@ -14,10 +14,10 @@
     "static/media/git.svg": "/personal-web/static/media/git.837803143c3c56e33d76.svg",
     "index.html": "/personal-web/index.html",
     "main.4cba49bd.css.map": "/personal-web/static/css/main.4cba49bd.css.map",
-    "main.20d6ecd5.js.map": "/personal-web/static/js/main.20d6ecd5.js.map"
+    "main.ddb24f39.js.map": "/personal-web/static/js/main.ddb24f39.js.map"
   },
   "entrypoints": [
     "static/css/main.4cba49bd.css",
-    "static/js/main.20d6ecd5.js"
+    "static/js/main.ddb24f39.js"
   ]
 }
